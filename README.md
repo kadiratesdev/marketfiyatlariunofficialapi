@@ -26,19 +26,19 @@ cd market-fiyat-api
 ### Basit Arama
 
 ```http
-GET /market_api.php?search=ekmek
+GET /api.php?search=ekmek
 ```
 
 ### Konum Bazlı Arama
 
 ```http
-GET /market_api.php?search=ekmek&lat=39.97041&lng=32.85647&distance=5000
+GET /api.php?search=ekmek&lat=39.97041&lng=32.85647&distance=5000
 ```
 
 ### Sayfalama ile Arama
 
 ```http
-GET /market_api.php?search=ekmek&page=1&size=50
+GET /api.php?search=ekmek&page=1&size=50
 ```
 
 ## 📝 Parametreler
